@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Welcome to calculator
 
-You can use the [editor on GitHub](https://github.com/AidanFairman/Calculator/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![CaclulatorScreenshot](/CalculatorScreen.PNG/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Summary
 
-### Markdown
+Originally, this was an assignment for one of my classes to demonstrate the memento design pattern. During this assignment, I challenged myself to code a GUI and provide functionality that I hadn't learned yet.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This calculator is written in C++ using Win32 forms. It operates much like the older built-in Windows calculator. It was designed to work with the keyboard, so the user can use their number keys or numpad to interface with the calculator.
 
-```markdown
-Syntax highlighted code block
+One thing that is noticable about the calculator is the very old Windows 98 look of it. I spent hours trying to get the current Windows theme to apply to the GUI, including following some online tutorials, but nothing would change the way it looked. The GUI is functional, just not very pretty
 
-# Header 1
-## Header 2
-### Header 3
+### Try it out
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AidanFairman/Calculator/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+There is a CalculatorWithUndo.exe in the [root folder](https://github.io/AidanFairman/Calculator) that you should be able to run. The calculator is functional for any basic arithmetic, and includes undo functionality. The display shows how far the user can undo before reaching the starting 0 value.
